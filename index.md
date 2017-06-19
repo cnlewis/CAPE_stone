@@ -4,7 +4,7 @@
 
 Created by Cary Lewis, Aina Pascual, Patricia Araguz and Enrique Rodríguez
 
-<ol start="I">
+<ol type="I">
 <li>Project Background</li>
 <li>Determine Project Direction</li>
 <li>Selecting Project</li>
