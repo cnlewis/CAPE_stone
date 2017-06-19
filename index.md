@@ -14,9 +14,9 @@ Created by Cary Lewis, Aina Pascual, Patricia Araguz and Enrique Rodríguez
 <li><a href="#projectresults">Findings and Results</a></li>
 <li><a href="#projectnextsteps">Possible Next Steps and Conclusions</a></li>
 
-<h2><a name="projectbackground">Project Background</h2>
-<h2><a name="projectdirection">Determine Project Direction</h2>
-<h2><a name="projectselect">Selecting Project</h2>
-<h2><a name="projectwork">Project Work</h2>
-<h2><a name="projectresults">Findings and Results</h2>
-<h2><a name="projectnextsteps">Possible Next Steps and Conclusions</h2>
+<h2><a name="projectbackground">Project Background</a></h2>
+<h2><a name="projectdirection">Determine Project Direction</a></h2>
+<h2><a name="projectselect">Selecting Project</a></h2>
+<h2><a name="projectwork">Project Work</a></h2>
+<h2><a name="projectresults">Findings and Results</a></h2>
+<h2><a name="projectnextsteps">Possible Next Steps and Conclusions</a></h2>
