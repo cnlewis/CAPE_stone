@@ -16,7 +16,7 @@ Created by Cary Lewis, Aina Pascual, Patricia Araguz and Enrique Rodríguez
 
 <br><br><br><br>
 
-<h2><a name="projectbackground">Project Background</a></h2>
+<h2><a id="projectbackground">Project Background</a></h2>
 <br><br>
 <h2><a name="projectdirection">Determine Project Direction</a></h2>
 <br><br>
@@ -26,4 +26,4 @@ Created by Cary Lewis, Aina Pascual, Patricia Araguz and Enrique Rodríguez
 <br><br>
 <h2><a name="projectresults">Findings and Results</a></h2>
 <br><br>
-<h2><a name="projectnextsteps">Possible Next Steps and Conclusions</a></h2>
+<h2><a id="projectnextsteps">Possible Next Steps and Conclusions</a></h2>
