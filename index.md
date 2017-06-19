@@ -1,2 +1,4 @@
-# Worldreader Query Data Project
-Github del grupo de alumnos del Postgrado en Data Science (UB) compuesto por Cary Lewis, Aina Pascual, Patricia Araguz y Enrique Rodríguez
+# Worldreader Query Data Project ![Worldreader Logo](https://comms.worldreader.org/wp-content/themes/worldreader/assets/images/logo.png)
+
+
+Created by Cary Lewis, Aina Pascual, Patricia Araguz and Enrique Rodríguez
