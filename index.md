@@ -18,12 +18,12 @@ Created by Cary Lewis, Aina Pascual, Patricia Araguz and Enrique Rodríguez
 
 <h2><a id="projectbackground">Project Background</a></h2>
 <br><br>
-<h2><a name="projectdirection">Determine Project Direction</a></h2>
+<h2><a id="projectdirection">Determine Project Direction</a></h2>
 <br><br>
-<h2><a name="projectselect">Selecting Project</a></h2>
+<h2><a id="projectselect">Selecting Project</a></h2>
 <br><br>
-<h2><a name="projectwork">Project Work</a></h2>
+<h2><a id="projectwork">Project Work</a></h2>
 <br><br>
-<h2><a name="projectresults">Findings and Results</a></h2>
+<h2><a id="projectresults">Findings and Results</a></h2>
 <br><br>
 <h2><a id="projectnextsteps">Possible Next Steps and Conclusions</a></h2>
