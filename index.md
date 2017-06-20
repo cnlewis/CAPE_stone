@@ -32,7 +32,7 @@ Worldreader was interested in the proposal of examining their data and in partic
 The Project Scope was to analyse queries made by users on the feature phone application by using clustering techniques to identify similar searches. Planned methodologies included sentiment and similarity analysis. Datasets from national libraries could be used to link with clustered search results and the texts identified. The result of the project would be to give Worldreader a better grasp on what their users are interested in reading and algorithms that the organization could use to improve upon its search queries and results in the future. The proposal left open the possibility to extend further into recommenders if possible with time permitting the project team. Another possibility was to use the Worldreader catalog to generate a recommenders system.
 <br>
 <br>
-Summary and methodology
+Summary and Methodology
 <br><br>
 The team met with the project manager from Worldreader every two weeks for regular updates and direction on the project.
 <br><br>
