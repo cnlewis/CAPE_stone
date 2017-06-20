@@ -13,11 +13,17 @@ Created by Cary Lewis, Aina Pascual, Patricia Araguz and Enrique Rodríguez
 <li><a href="#projectwork">Project Work</a></li>
 <li><a href="#projectresults">Findings and Results</a></li>
 <li><a href="#projectnextsteps">Possible Next Steps and Conclusions</a></li>
+<li><a href="#projectreferences">References</a></li>
 
 <br><br><br><br>
 
 <h2><a id="projectbackground">Project Background</a></h2>
-<br><br>
+<br>
+Worldreader is non-profit organization working to reduce illiteracy through its reading applications and sponsorship programs. The organization has a collection of over 40,000 books in more than 40 languages with the mission "to unlock the potential of millions of people through the use of digital books in places where access to reading material is very limited."
+<br>
+The project team approached Worldreader as their large collection generates significant amounts data and particularly through the<a href="https://www.worldreader.org/what-we-do/worldreader-mobile/">Worldreader Open Library for mobile phones application></a>.
+<br>
+Worldreader was interested in the proposal of examining their data and in particular wanted to focus on the Query Data from their mobile application. The project was to examine the search 
 <h2><a id="projectdirection">Determine Project Direction</a></h2>
 <br><br>
 <h2><a id="projectselect">Selecting Project</a></h2>
@@ -27,3 +33,5 @@ Created by Cary Lewis, Aina Pascual, Patricia Araguz and Enrique Rodríguez
 <h2><a id="projectresults">Findings and Results</a></h2>
 <br><br>
 <h2><a id="projectnextsteps">Possible Next Steps and Conclusions</a></h2>
+<br><br>
+<h2><a id="projectreferences">References</a></h2>
