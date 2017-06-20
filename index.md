@@ -16,7 +16,7 @@ Thank you to Worldreader for granting us access to its data and for supporting o
 <li><a href="#projectresults">Findings and Results</a></li>
 <li><a href="#projectnextsteps">Possible Next Steps and Conclusions</a></li>
 <li><a href="#projectreferences">References</a></li>
-
+</ol>
 <br><br><br><br>
 
 <h2><a id="projectbackground">Project Background</a></h2>
