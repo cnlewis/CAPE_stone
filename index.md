@@ -11,7 +11,6 @@ Thank you to Worldreader for granting us access to its data and for supporting o
 <ol type="I">
 <li><a href="#projectbackground">Project Background</a></li>
 <li><a href="#projectscope">Project Scope and Methodology</a></li>
-<li><a href="#projectselect">Selecting Project</a></li>
 <li><a href="#projectwork">Project Work</a></li>
 <li><a href="#projectresults">Findings and Results</a></li>
 <li><a href="#projectnextsteps">Possible Next Steps and Conclusions</a></li>
@@ -54,8 +53,6 @@ The team met with the project manager from Worldreader every two weeks for regul
 <li>Cluster validation with control file</li>
 <li>Script implementation in a development unit</li>
 </ul>
-<br><br>
-<h2><a id="projectselect">Selecting Project</a></h2>
 <br><br>
 <h2><a id="projectwork">Project Work</a></h2>
 <br><br>
