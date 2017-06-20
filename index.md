@@ -43,11 +43,15 @@ weeks.
 <li>Data cleaning</li>
 <li>Data enrichment with information taken from word thesaurus and National Libraries</li>
 <li>Data clustering using text analysis</li>
-<li style="padding-left:20px">Identify search language and select searches in English</li>
-<li style="padding-left:20px">Split searches in Authors, Titles and “unknown text”</li>
-<li style="padding-left:30px">Identify Book Category</li>
-<li style="padding-left:30px">Identify Authors</li>
-<li style="padding-left:20px">Cluster the book list in k groups of items that Worldreader users could take as a recommendation book list.</li>
+<ul>
+<li>Identify search language and select searches in English</li>
+<li>Split searches in Authors, Titles and “unknown text”</li>
+<ul>
+<li>Identify Book Category</li>
+<li>Identify Authors</li>
+</ul>
+<li>Cluster the book list in k groups of items that Worldreader users could take as a recommendation book list.</li>
+</ul>
 <li>Cluster validation with control file</li>
 <li>Script implementation in a development unit</li>
 </ul>
