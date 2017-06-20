@@ -29,14 +29,12 @@ Worldreader was interested in the proposal of examining their data and in partic
 <br><br><br><br>
 <h2><a id="projectscope">Project Scope and Methodology</a></h2>
 <br>
-The Project Scope was to analyse queries made by users on the feature phone application by using clustering techniques to identify similar searches. Planned methodologies can include sentiment and similarity analysis. Datasets from national libraries will be used to link with clustered search results the texts identified. The result of the project will be to give Worldreader a better grasp on what their users are interested in reading and algorithms that they can use to improve upon their search queries and results in the future. This proposal leaves open the possibility to extend further into recommenders if possible and time permits the project team. If possible and time permitting, the Worldreader catalog can be used by the team to generate a recommenders system.
+The Project Scope was to analyse queries made by users on the feature phone application by using clustering techniques to identify similar searches. Planned methodologies included sentiment and similarity analysis. Datasets from national libraries could be used to link with clustered search results and the texts identified. The result of the project would be to give Worldreader a better grasp on what their users are interested in reading and algorithms that the organization could use to improve upon its search queries and results in the future. The proposal left open the possibility to extend further into recommenders if possible with time permitting the project team. Another possibility was to use the Worldreader catalog to generate a recommenders system.
 
 Summary and methodology
-
-The team meetings are going to be held together with Catherine from Worldreader every two
-
-weeks.
-
+<br><br>
+The team met with the project manager from Worldreader every two weeks for regular updates and direction on the project.
+<br><br>
 <h4>Project steps:</h4>
 <br>
 <ul>
