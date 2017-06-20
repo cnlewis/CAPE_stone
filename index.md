@@ -37,18 +37,20 @@ The team meetings are going to be held together with Catherine from Worldreader 
 
 weeks.
 
-Foreseen steps:
+<h3>Project steps:</h3>
 <br>
-- Data cleaning
-- Data enrichment with information taken from word thesaurus and National Libraries
-- Data clustering using text analysis
-    - Identify search language and select searches in English
-    - Split searches in Authors, Titles and “unknown text”
-        - Identify Book Category
-        - Identify Authors
-    - Cluster the book list in k groups of items that Worldreader users could take as a recommendation book list.
-- Cluster validation with control file
-- Script implementation in a development unit
+<ul>
+<li>- Data cleaning</li>
+<li>- Data enrichment with information taken from word thesaurus and National Libraries</li>
+<li>- Data clustering using text analysis</li>
+<li>- Identify search language and select searches in English</li>
+<li>- Split searches in Authors, Titles and “unknown text”</li>
+<li>- Identify Book Category</li>
+<li>- Identify Authors</li>
+<li>- Cluster the book list in k groups of items that Worldreader users could take as a recommendation book list.</li>
+<li>- Cluster validation with control file</li>
+<li>- Script implementation in a development unit</li>
+</ul>
 <br><br>
 <h2><a id="projectselect">Selecting Project</a></h2>
 <br><br>
