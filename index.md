@@ -57,9 +57,10 @@ The team met with the project manager from Worldreader every two weeks for regul
 <br><br>
 <h2><a id="projectwork">Project Work</a></h2>
 <br><br>
+For an indepth review of the project work see the Capstone's <a href="https://github.com/cnlewis/CAPE_stone/blob/master/Script_proceso_busquedas_integrado.ipynb">Jupyter notebook</a>.
+<br><br>
 Worldreader provided our team 6 CSV files consisting of over 3,000,000 queries and related information.
 <br><br>
-Indepth review of work in <a href="https://github.com/cnlewis/CAPE_stone/blob/master/Script_proceso_busquedas_integrado.ipynb">Jupyter notebook</a>.
 <table>
 <tr>
 <td><b>customer,</b></td>
