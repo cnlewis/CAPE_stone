@@ -75,7 +75,7 @@ Worldreader provided our team 6 CSV files consisting of over 3,000,000 queries a
 </tr>
 </table>
 <h4>Examining the data required that we first clean the data and organize it.</h4>
-After loading our data:
+After loading the data:
 <ul>
 <li>Removed the duplicate queries of each user</li>
 <ul>
