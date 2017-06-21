@@ -70,6 +70,15 @@ Worldreader gave our team 6 CSV files consisting of over 3,000,000 queries and r
 <tr>
 <td>157260,</td><td>"KE",</td><td>"/Search/Results?Query=New+Testament&Language=",</td><td>"New Testament",</td><td>"2016-12-27 15:48:16.893"</td>
 </tr>
+<tr>
+<td>157261,</td><td>"PH",</td><td>"/Search/Results?Query=circles",</td><td>"circles",</td><td>"2016-11-12 18:14:11.933"</td>
+</tr>
+<tr>
+<td>157261,</td><td>"PH",</td><td>"/Search/Results?Query=japanese",</td><td>"japanese",</td><td>"2016-11-18 17:15:54.19"</td>
+</tr>
+
+
+
 </table>
 <h2><a id="projectresults">Findings and Results</a></h2>
 <br><br>
