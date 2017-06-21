@@ -79,8 +79,18 @@ Worldreader provided our team 6 CSV files consisting of over 3,000,000 queries a
 <td>157261,</td><td>"PH",</td><td>"/Search/Results?Query=japanese",</td><td>"japanese",</td><td>"2016-11-18 17:15:54.19"</td>
 </tr>
 </table>
+<br><br>
+Examining the data required that we first clean the data and organize it.
 
-
+After loading our data:
+<ul>
+<li>Removed the duplicate queries of each user</li>
+<ul>
+<li>This permitted us to see the individual unique queries from the users - duplicates could lead to errors in word frequencies</li>
+</ul>
+<li>Removed punctuation, irregular spacing at the beginning or end of queries, empty queries or queries that only contained numerical numbers</li>
+<li>Used textblob and langdetect to determine query languages</li>
+</ul>
 <h2><a id="projectresults">Findings and Results</a></h2>
 <br><br>
 <h2><a id="projectconclusions">Conclusions</a></h2>
