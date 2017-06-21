@@ -83,7 +83,7 @@ After loading the data:
 </ul>
 <li>Removed punctuation, irregular spacing at the beginning or end of queries, empty queries or queries that only contained numerical numbers and special characters</li>
 <ul>
-<li>Removing these pieces ensure our scripts will run properly without failing</li>
+<li>Removing these pieces ensured our scripts would run properly without failing</li>
 </ul>
 <li>Used textblob and langdetect to determine query languages</li>
 </ul>
