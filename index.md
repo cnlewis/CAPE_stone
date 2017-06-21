@@ -81,9 +81,15 @@ After loading the data:
 <ul>
 <li>This permitted us to see the individual unique queries from the users - duplicates could lead to errors in word frequencies</li>
 </ul>
-<li>Removed punctuation, irregular spacing at the beginning or end of queries, empty queries or queries that only contained numerical numbers</li>
+<li>Removed punctuation, irregular spacing at the beginning or end of queries, empty queries or queries that only contained numerical numbers and special characters</li>
+<ul>
+<li>Removing these pieces ensure our scripts will run properly without failing</li>
+</ul>
 <li>Used textblob and langdetect to determine query languages</li>
 </ul>
+<h4>Standardization of English Queries</h4>
+
+
 <h2><a id="projectresults">Findings and Results</a></h2>
 <br><br>
 <h2><a id="projectconclusions">Conclusions</a></h2>
