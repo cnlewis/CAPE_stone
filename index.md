@@ -13,7 +13,8 @@ Thank you to Worldreader for granting us access to its data and for supporting o
 <li><a href="#projectscope">Project Scope and Methodology</a></li>
 <li><a href="#projectwork">Project Work</a></li>
 <li><a href="#projectresults">Findings and Results</a></li>
-<li><a href="#projectnextsteps">Possible Next Steps and Conclusions</a></li>
+<li><a href="#projectconclusions">Conclusions</a></li>
+<li><a href="#projectnextsteps">Possible Next Steps</a></li>
 <li><a href="#projectreferences">References</a></li>
 </ol>
 <br><br><br><br>
@@ -57,6 +58,8 @@ The team met with the project manager from Worldreader every two weeks for regul
 <h2><a id="projectwork">Project Work</a></h2>
 <br><br>
 <h2><a id="projectresults">Findings and Results</a></h2>
+<br><br>
+<h2><a id="projectconclusions">Conclusions</a></h2>
 <br><br>
 <h2><a id="projectnextsteps">Possible Next Steps and Conclusions</a></h2>
 <br><br>
