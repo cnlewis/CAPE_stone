@@ -60,19 +60,15 @@ The team met with the project manager from Worldreader every two weeks for regul
 Worldreader gave our team 6 CSV files consisting of over 3,000,000 queries and related information.
 
 <table>
-<tr><b>
-<td>customer,</td>
-<td>country,</td>
-<td>url,</td>
-<td>query,</td>
-<td>created_at</td></b>
-</tr>
 <tr>
-<td>customer,</td>
+<td><b>customer,</b></td>
 <td>country,</td>
 <td>url,</td>
 <td>query,</td>
 <td>created_at</td>
+</tr>
+<tr>
+<td>157260,"KE",</td><td>"/Search/Results?Query=New+Testament&Language=",</td><td>"New Testament",</td><td>"2016-12-27 15:48:16.893"</td>
 </tr>
 </table>
 <h2><a id="projectresults">Findings and Results</a></h2>
