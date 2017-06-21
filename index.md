@@ -58,7 +58,7 @@ The team met with the project manager from Worldreader every two weeks for regul
 <h2><a id="projectwork">Project Work</a></h2>
 <br><br>
 Worldreader gave our team 6 CSV files consisting of over 3,000,000 queries and related information.
-
+<br><br>
 <table>
 <tr>
 <td><b>customer,</b></td>
