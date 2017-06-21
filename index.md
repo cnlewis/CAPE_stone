@@ -6,7 +6,7 @@ Created by Cary Lewis, Aina Pascual, Patricia Araguz and Enrique Rodríguez
 <br>
 <a href="http://www.ub.edu/datascience/postgraduate/">UB Data Science and Big Data</a> Capstone Project
 <br><br>
-Thank you to Worldreader for granting us access to its data and for supporting our Capstone Project.
+<p>Thank you to Worldreader for granting us access to its data and for supporting our Capstone Project.</p>
 
 <ol type="I">
 <li><a href="#projectbackground">Project Background</a></li>
@@ -57,10 +57,13 @@ The team met with the project manager from Worldreader every two weeks for regul
 <br><br>
 <h2><a id="projectwork">Project Work</a></h2>
 <br><br>
+
+
+
 <h2><a id="projectresults">Findings and Results</a></h2>
 <br><br>
 <h2><a id="projectconclusions">Conclusions</a></h2>
 <br><br>
-<h2><a id="projectnextsteps">Possible Next Steps and Conclusions</a></h2>
+<h2><a id="projectnextsteps">Possible Next Steps</a></h2>
 <br><br>
 <h2><a id="projectreferences">References</a></h2>
