@@ -57,8 +57,9 @@ The team met with the project manager from Worldreader every two weeks for regul
 <br><br>
 <h2><a id="projectwork">Project Work</a></h2>
 <br><br>
-Worldreader gave our team 6 CSV files consisting of over 3,000,000 queries and related information.
+Worldreader provided our team 6 CSV files consisting of over 3,000,000 queries and related information.
 <br><br>
+Indepth review of work in <a href="https://github.com/cnlewis/CAPE_stone/blob/master/Script_proceso_busquedas_integrado.ipynb">Jupyter notebook</a>.
 <table>
 <tr>
 <td><b>customer,</b></td>
@@ -76,10 +77,9 @@ Worldreader gave our team 6 CSV files consisting of over 3,000,000 queries and r
 <tr>
 <td>157261,</td><td>"PH",</td><td>"/Search/Results?Query=japanese",</td><td>"japanese",</td><td>"2016-11-18 17:15:54.19"</td>
 </tr>
-
-
-
 </table>
+
+
 <h2><a id="projectresults">Findings and Results</a></h2>
 <br><br>
 <h2><a id="projectconclusions">Conclusions</a></h2>
