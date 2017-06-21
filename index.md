@@ -6,7 +6,7 @@ Created by Cary Lewis, Aina Pascual, Patricia Araguz and Enrique Rodríguez
 <br>
 <a href="http://www.ub.edu/datascience/postgraduate/">UB Data Science and Big Data</a> Capstone Project
 <br><br>
-<p>Thank you to Worldreader for granting us access to its data and for supporting our Capstone Project.</p>
+Thank you to Worldreader for granting us access to its data and for supporting our Capstone Project.
 
 <ol type="I">
 <li><a href="#projectbackground">Project Background</a></li>
