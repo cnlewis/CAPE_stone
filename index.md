@@ -74,9 +74,7 @@ Worldreader provided our team 6 CSV files consisting of over 3,000,000 queries a
 <td>157261,</td><td>"PH",</td><td>"/Search/Results?Query=japanese",</td><td>"japanese",</td><td>"2016-11-18 17:15:54.19"</td>
 </tr>
 </table>
-<br><br>
 <h4>Examining the data required that we first clean the data and organize it.</h4>
-
 After loading our data:
 <ul>
 <li>Removed the duplicate queries of each user</li>
