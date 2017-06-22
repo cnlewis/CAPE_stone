@@ -88,7 +88,12 @@ After loading the data:
 <li>Used textblob and langdetect to determine query languages</li>
 </ul>
 <h4>Standardization of English Queries</h4>
-
+Generating a word counter and string of corrected words
+<ul>
+<li>
+Applying the cleaned file with language assigned and the remaining fields of interest to us, we used it to create a string variable by joining all the queries and transformed all the words to lowercase. Using the previous string variable we were then able create a word counter.</li>
+<li>Selecting english we ran the words to determine if they were valid or invalid. We then generated a string of the incorrect words that remained to be corrected removing the incorrect words from our corrected words counter.</li>
+</ul>
 
 <h2><a id="projectresults">Findings and Results</a></h2>
 <br><br>
