@@ -105,8 +105,14 @@ Loading the cleaned file and using the string errors and the word correction mod
 <li>The incorrect words get run through our word correction module, counting the searches once corrected and eliminating the duplicates and saving the file with corrected words.</li>
 </ul>
 <h4>Selected a random sample of 20,000 Queries</h4>
-<ul><li>The random sample will be used as representative of all the query data</li></ul>
-<h4>Description of the total data and the sample</h4>
+<ul><li>The random sample was taken from the corrected word and later is used as representative of all the query data</li></ul>
+<h4>Descriptive analysis of the most used terms in the sample of searches with generated graphs (Total vs Sample Data)</h4>
+<ul>
+<li>Comparison of the search distribution by country of the total file in relation to the sample file</li>
+<li>Comparison of the distribution of terms from the sample with respect to the term distribution of the complete file (of searches with corrected words).</li>
+<li>Generated a word cloud with the most used terms and identified the "n" first bigramas depending on their frequency of occurrence.</li>
+</ul>
+
 
 <h2><a id="projectresults">Findings and Results</a></h2>
 <br><br>
