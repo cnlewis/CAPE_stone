@@ -105,12 +105,20 @@ Loading the cleaned file and using the string errors and the word correction mod
 <li>The incorrect words get run through our word correction module, counting the searches once corrected and eliminating the duplicates and saving the file with corrected words.</li>
 </ul>
 <h4>Selected a random sample of 20,000 Queries</h4>
-<ul><li>The random sample was taken from the corrected word and later is used as representative of all the query data</li></ul>
+<ul><li>The random sample was taken from the corrected word and later is used for comparison against the total query data</li></ul>
 <h4>Descriptive analysis of the most used terms in the sample of searches with generated graphs (Total vs Sample Data)</h4>
 <ul>
 <li>Comparison of the search distribution by country of the total file in relation to the sample file</li>
 <li>Comparison of the distribution of terms from the sample with respect to the term distribution of the complete file (of searches with corrected words).</li>
 <li>Generated a word cloud with the most used terms and identified the "n" first bigramas depending on their frequency of occurrence.</li>
+</ul>
+<h4>Supplementing the sample of 20,000 queries with Google Books API</h4>
+<ul>
+<li>Retriedved from the books: title, author, category and description with the Google Books API</li>
+<li>Limited to a 1,000 daily searches of Google API (daily query limit per user).</li>
+<li>Processed the information obtained to identify which book matches best (from a total of up to 5 candidates) depending on the appearance of terms in their title, author and description.</li>
+<li>We returned a total of 5 books (the first being the best match) provided that the percentage of words in the query that appear in the title of the book returned is greater than 60%. If the search words have a percentage of appearance higher than 50% in the returned author, we consider that it is a search by author and we label it as such.</li>
+<li>We then saved the results file with the 5 books returned.</li>
 </ul>
 
 
