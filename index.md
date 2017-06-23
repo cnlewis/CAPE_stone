@@ -97,9 +97,12 @@ Applying the cleaned file with language assigned and the remaining fields of int
 Define the module with the functions from the word corrections
 <ul>
 <li>We generated another word counter building off the previous counter we created from our processed data files and defined the search and correcting functions for the incorrect words.</li>
-<li>Started with basic word correction (addition/removal of letters, transposing letters, and separation of words in two) selecting those words with greater likelihood of being correct when compared against the correct words.</li>
+<li>Begins with basic word correction (addition/removal of letters, transposing letters, and separation of words in two) selecting those words with greater likelihood of being correct when compared against the correct words.</li>
 </ul>
-
+Loading the cleaned file and using the string errors and the word correction module of the previous steps
+<ul>
+<li>Using the word correction module we loaded the incorrect word string generated from the spelling module.</li>
+<li>The incorrect words get run through our word correction module, counting the searches once corrected and eliminating the duplicates and saving the file with corrected words.</li>
 
 <h2><a id="projectresults">Findings and Results</a></h2>
 <br><br>
