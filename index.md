@@ -118,7 +118,7 @@ Loading the cleaned file and using the string errors and the word correction mod
 <li>Limited to a 1,000 daily searches of Google API (daily query limit per user).</li>
 <li>Processed the information obtained to identify which book matches best (from a total of up to 5 candidates) depending on the appearance of terms in their title, author and description.</li>
 <li>We returned a total of 5 books (the first being the best match) provided that the percentage of words in the query that appear in the title of the book returned is greater than 60%. If the search words have a percentage of appearance higher than 50% in the returned author, we consider that it is a search by author and we label it as such.</li>
-<li>We then saved the results file with the 5 books returned.</li>
+<li>We then saved the results file with the 5 books associated with each query.</li>
 </ul>
 
 
