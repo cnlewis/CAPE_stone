@@ -53,7 +53,7 @@ The team met with the project manager from Worldreader every two weeks for regul
 <h2><a id="projectwork">Project Work</a></h2>
 <br><br>
 For an indepth review of the project work see the Capstone's <a href="https://github.com/cnlewis/CAPE_stone/blob/master/Script_proceso_busquedas_integrado.ipynb">Jupyter notebook</a>.
-<br>
+<br><br>
 Figure 1: Flow Chart of Data in Capstone Project
 <img src="https://raw.githubusercontent.com/cnlewis/CAPE_stone/master/images/Flujo_datos_WorldReader_en_traducidos.png">
 <br><br>
