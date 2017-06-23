@@ -103,6 +103,9 @@ Loading the cleaned file and using the string errors and the word correction mod
 <ul>
 <li>Using the word correction module we loaded the incorrect word string generated from the spelling module.</li>
 <li>The incorrect words get run through our word correction module, counting the searches once corrected and eliminating the duplicates and saving the file with corrected words.</li>
+<h4>Selected a random sample of 20,000 Queries</h4>
+<li>The random sample will be used as representative of all the query data</li>
+<h4>Description of the total data and the sample</h4>
 
 <h2><a id="projectresults">Findings and Results</a></h2>
 <br><br>
