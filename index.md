@@ -137,6 +137,11 @@ Loading the cleaned file and using the string errors and the word correction mod
 <li>Supplement data further with information related to success or failure of the search results (with a dichotomous field, for example, that identifies whether the user found a satisfactory result or not) and analyze the predictive capacity of the model in each case.</li>
 <h4>Increase sample size to see if it improves the function of the models</h4> 
 <h4>Analysis of organization's catalog</h4>
-
+<h4>Compare the supplemented queries with the information extracted from the Google Books API against the organizational book catalog:</h4>
+<ul>
+<li>Identify the catalog books in high demand</li>
+<li>A list of books in high demand and not part of the catalog (with possibilty of incorpating the books into the catalog)</li>
+<li>Create a recommenders system of the catalog based off the queries</li>
+</ul>
 
 <h2><a id="projectreferences">References</a></h2>
