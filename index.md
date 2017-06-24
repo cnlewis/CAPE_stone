@@ -148,7 +148,20 @@ Loading the cleaned file and using the string errors and the word correction mod
 <ul>
 <li>Create LDA removing words of low frequency</li>
 <li>Apply TextRank with the descriptoins to extract keywords and pass them through the models</li>
-<li>Apply technical analysis of graphs The hyperonyms of the main search terms, using the NLTK library to retrieve WordNet hyperonyms.</li>
+<li>Apply technical analysis for graphs of the hyperonyms of the main search terms, using the NLTK library to retrieve WordNet hyperonyms.</li>
 </ul>
 
 <h2><a id="projectreferences">References</a></h2>
+
+<h4>What are the pros and cons of LDA and NMF in topic modeling?</h4> 
+<ul><li>https://www.quora.com/What-are-the-pros-and-cons-of-LDA-and-NMF-in-topic-modeling</li></ul> 
+ 
+<ul><li>https://medium.com/@aneesha/topic-modeling-with-scikit-learn-e80d33668730</li></ul> 
+ 
+<h4>Text mining Topic Modeling</h4>
+<ul><li>http://www.kdnuggets.com/2016/07/text-mining-101-topic-modeling.html</li></ul>
+ 
+<h4>Exploring Topic Coherence over many models and many topics</h4>
+<ul><li>http://aclweb.org/anthology/D/D12/D12-1087.pdf</li></ul>
+
+
