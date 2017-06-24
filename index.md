@@ -131,4 +131,12 @@ Loading the cleaned file and using the string errors and the word correction mod
 <br><br>
 <h2><a id="projectnextsteps">Possible Next Steps</a></h2>
 <br><br>
+<h4>Classification of queries based off user information</h4>
+<ul>
+<li>Supplement data further with user profile information (sex, age, and level of education) with the objective of studying whether there are differentiated segments of users by socio-demographic profile that allow to fine-tune the classifier for each of the groups obtained.</li>
+<li>Supplement data further with information related to success or failure of the search results (with a dichotomous field, for example, that identifies whether the user found a satisfactory result or not) and analyze the predictive capacity of the model in each case.</li>
+<h4>Increase sample size to see if it improves the function of the models</h4> 
+<h4>Analysis of organization's catalog</h4>
+
+
 <h2><a id="projectreferences">References</a></h2>
