@@ -144,5 +144,11 @@ Loading the cleaned file and using the string errors and the word correction mod
 <li>A list of books in high demand and not part of the catalog (with possibilty of incorpating the books into the catalog)</li>
 <li>Create a recommenders system of the catalog based off the queries</li>
 </ul>
+<h4>Query Classification Methodologies:</h4>
+<ul>
+<li>Create LDA removing words of low frequency</li>
+<li>Apply TextRank with the descriptoins to extract keywords and pass them through the models</li>
+<li>Apply technical analysis of graphs The hyperonyms of the main search terms, using the NLTK library to retrieve WordNet hyperonyms.</li>
+</ul>
 
 <h2><a id="projectreferences">References</a></h2>
