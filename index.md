@@ -135,6 +135,7 @@ Loading the cleaned file and using the string errors and the word correction mod
 <ul>
 <li>Supplement data further with user profile information (sex, age, and level of education) with the objective of studying whether there are differentiated segments of users by socio-demographic profile that allow to fine-tune the classifier for each of the groups obtained.</li>
 <li>Supplement data further with information related to success or failure of the search results (with a dichotomous field, for example, that identifies whether the user found a satisfactory result or not) and analyze the predictive capacity of the model in each case.</li>
+</ul>
 <h4>Increase sample size to see if it improves the function of the models</h4> 
 <h4>Analysis of organization's catalog</h4>
 <h4>Compare the supplemented queries with the information extracted from the Google Books API against the organizational book catalog:</h4>
