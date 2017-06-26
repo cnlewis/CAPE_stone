@@ -115,6 +115,7 @@ Loading the cleaned file and using the string errors and the word correction mod
 <li>Comparison of the distribution of terms from the sample with respect to the term distribution of the complete file (of searches with corrected words).</li>
 <li>Generated a word cloud with the most used terms and identified the "n" first bigramas depending on their frequency of occurrence.</li>
 </ul>
+<img src="https://raw.githubusercontent.com/cnlewis/CAPE_stone/master/images/wordcloud_finalsample.png">
 <h4>Supplementing the sample of 20,000 queries with Google Books API</h4>
 <ul>
 <li>Retriedved from the books: title, author, category and description with the Google Books API</li>
