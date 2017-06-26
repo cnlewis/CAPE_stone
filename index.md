@@ -125,6 +125,10 @@ Loading the cleaned file and using the string errors and the word correction mod
 <li>We then saved the results file with the 5 books associated with each query.</li>
 <li>Graphed the frequencies histograms of titles and frequencies of categories returned by Google Books API from the sample of 20,000 querires</li>
 </ul>
+<img src="https://raw.githubusercontent.com/cnlewis/CAPE_stone/master/images/eengeonkipddppjf.png">
+<br>
+<img src="https://raw.githubusercontent.com/cnlewis/CAPE_stone/master/images/akpghkmaioebgcfb.png">
+
 <h4>We prepared the files to generate LDA and MFN models on the descriptions obtained from the sample with the Google Books API</h4>
 <ul><li>We prepared work files to generate the LDA and MFN models:</li>
 <ul><li>We used 80% of the sample to construct the model</li>
