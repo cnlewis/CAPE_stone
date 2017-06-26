@@ -133,13 +133,19 @@ Loading the cleaned file and using the string errors and the word correction mod
 <h4>We generated the LDA model from the descriptions obtained from the sample used with the Google Books API</h4>
 <h4>Performed test of LDA and MFN model on 20% of the sample</h4>
 <ul>
-<li>We tested the methods obtained in 20% of the sample:</li>
+<li>We tested the methods obtained on 20% of the sample:</li>
 <ul>
-     <li>We predict about 20% of the sample the 3 most likely topics using the LDA generated in 80%</li>
-     <li>We predict about 20% of the sample the 3 most likely topics using the MFN generated in 80%</li>
-     <li>We generate a csv file with the predictions of both models</li></ul></ul>
+     <li>We predicted about 20% of the sample with the 3 most likely topics using the LDA generated in 80%</li>
+     <li>We predicted about 20% of the sample with the 3 most likely topics using the MFN generated in 80%</li>
+     <li>We then generated a csv file with the predictions from both of the models</li></ul></ul>
 
+<h4>Calculation of the per-word perplexity of the LDA models on the test file</h4>
+<ul>
+<li>We calculate the per-word perplexity of the LDA models using the test file with 20% of the sample:</li>
 
+     <li>We generate LDA models using 80% of the sample with 5, 10, 15, 20 and 25 topics</li>
+     <li>We calculate the per-word perplexity of each of the previous models on the test file of 20%</li>
+     <li>We see that with the 5 and 15 topic models we get the lowest per-word perplexitys. The per-word perplexity of the model with topics are similar</li></ul></ul>
 
 <h2><a id="projectresults">Findings and Results</a></h2>
 <br><br>
