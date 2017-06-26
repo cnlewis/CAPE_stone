@@ -167,6 +167,14 @@ Loading the cleaned file and using the string errors and the word correction mod
 <li>Apply TextRank with the descriptoins to extract keywords and pass them through the models</li>
 <li>Apply technical analysis for graphs of the hyperonyms of the main search terms, using the NLTK library to retrieve WordNet hyperonyms.</li>
 </ul>
+<h4>We generated the LDA model from the descriptions obtained from the sample used with the Google Books API</h4>
+<h4>Performed test of LDA and MFN model on 20% of the sample</h4>
+<ul>
+<li>We tested the methods obtained in 20% of the sample:</li>
+<ul>
+     <li>We predict about 20% of the sample the 3 most likely topics using the LDA generated in 80%</li>
+     <li>We predict about 20% of the sample the 3 most likely topics using the MFN generated in 80%</li>
+     <li>We generate a csv file with the predictions of both models</li></ul></ul>
 
 <h2><a id="projectreferences">References</a></h2>
 
