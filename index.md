@@ -141,10 +141,10 @@ Loading the cleaned file and using the string errors and the word correction mod
 
 <h4>Calculation of the per-word perplexity of the LDA models on the test file</h4>
 <ul>
-<li>We calculate the per-word perplexity of the LDA models using the test file with 20% of the sample:</li>
-<ul><li>We generate LDA models using 80% of the sample with 5, 10, 15, 20 and 25 topics</li>
-<li>We calculate the per-word perplexity of each of the previous models on the test file of 20%</li>
-<li>We see that with the 5 and 15 topic models we get the lowest per-word perplexitys. The per-word perplexity of the model with topics are similar</li></ul></ul>
+<li>We calculated the per-word perplexity of the LDA models using the test file with 20% of the sample:</li>
+<ul><li>We generated LDA models using 80% of the sample with 5, 10, 15, 20 and 25 topics</li>
+<li>We calculated the per-word perplexity of each of the previous models on the test file of 20%</li>
+<li>We found that with the models of 5 and 15 topics we get the lowest per-word perplexitys. The per-word perplexity of the topic models are similar</li></ul></ul>
 
 <h2><a id="projectresults">Findings and Results</a></h2>
 <br><br>
