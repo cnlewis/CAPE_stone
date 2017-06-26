@@ -122,6 +122,13 @@ Loading the cleaned file and using the string errors and the word correction mod
 <li>Processed the information obtained to identify which book matches best (from a total of up to 5 candidates) depending on the appearance of terms in their title, author and description.</li>
 <li>We returned a total of 5 books (the first being the best match) provided that the percentage of words in the query that appear in the title of the book returned is greater than 60%. If the search words have a percentage of appearance higher than 50% in the returned author, we consider that it is a search by author and we label it as such.</li>
 <li>We then saved the results file with the 5 books associated with each query.</li>
+<li>Graphed the frequencies histograms of titles and frequencies of categories returned by Google Books API from the sample of 20,000 querires</li>
+</ul>
+<h4>We prepared the files to generate LDA and MFN models on the descriptions obtained from the sample with the Google Books API</h4>
+<ul><li>We prepared work files to generate the LDA and MFN models:</li>
+<ul><li>We used 80% of the sample to construct the model</li>
+<li>We used 20% of the sample to validate the model</li>
+</ul>
 </ul>
 
 
