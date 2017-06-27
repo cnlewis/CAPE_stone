@@ -101,8 +101,9 @@ We decided to use English queries as it would permit us to use the models more e
 <br><br>
 After selecting the english queries we had validated queries and corrected misspellings within words.
 <h4>Sampling and Descriptive Stats</h4>
-We needed to select a random sample of 20,000 queries to run as we were not able to run the all queries due to time and API limitations. Using the sample set of 20,000 queries gave us a statistical significance of 99% and was representative of all our query data.
-<ul><li>The random sample was taken from the corrected word and later is used for comparison against the total query data</li></ul>
+We needed to select a random sample of 20,000 queries to run as we were not able to run the all queries due to time and API limitations. Using the sample set of 20,000 queries gave us a statistical significance of 99% and was representative of all our query data. Using the random sample of the corrected words we could use this for comparison against the total query data.
+<img src="https://raw.githubusercontent.com/cnlewis/CAPE_stone/master/images/CAPEstone_sample_significance.png">
+
 <h4>Descriptive analysis of the most used terms in the sample of searches with generated graphs (Total vs Sample Data)</h4>
 <ul>
 <li>Comparison of the search distribution by country of the total file in relation to the sample file</li>
