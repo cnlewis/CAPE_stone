@@ -173,24 +173,28 @@ Loading the cleaned file and using the string errors and the word correction mod
 <h2><a id="projectnextsteps">Possible Next Steps</a></h2>
 <br>
 <h4>Classification of queries based off user information</h4>
-<ul>
-<li>Supplement data further with user profile information (sex, age, and level of education) with the objective of studying whether there are differentiated segments of users by socio-demographic profile that allow to fine-tune the classifier for each of the groups obtained.</li>
-<li>Supplement data further with information related to success or failure of the search results (with a dichotomous field, for example, that identifies whether the user found a satisfactory result or not) and analyze the predictive capacity of the model in each case.</li>
-</ul>
-<h4>Increase sample size to see if it improves the function of the models</h4> 
-<h4>Analysis of organization's catalog</h4>
-<h4>Compare the supplemented queries with the information extracted from the Google Books API against the organizational book catalog:</h4>
-<ul>
-<li>Identify the catalog books in high demand</li>
-<li>A list of books in high demand and not part of the catalog (with possibilty of incorpating the books into the catalog)</li>
+<ul><li>Classification of queries based off user information</li>
+<Ul><li>Supplement data further with user profile information.</li>
+<li>Supplement data further with information related to success or failure of the search results.</li>
+</Ul>
+
+<li>Increase sample size to see if it improves the function of the models. Test different sample sets.</li>
+
+<li>Analysis of organization's catalog.</li>
+
+<li>Try to find other libraries with description. We could not access to any as good as Google Books.</li>
+
+<li>Compare the supplemented queries with the information extracted from the Google Books API against the organizational book catalog:</li>
+<ul><li>Identify the catalog books in high demand</li>
+<li>A list of books in high demand and not part of the catalog</li>
 <li>Create a recommenders system of the catalog based off the queries</li>
 </ul>
-<h4>Query Classification Methodologies:</h4>
-<ul>
-<li>Create LDA removing words of low frequency</li>
-<li>Apply TextRank with the descriptoins to extract keywords and pass them through the models</li>
+<li>Query Classification Methodologies:</li>
+<ul><li>Test LDA removing words of low frequency.</li>
+<li>Use PCA to try to find core topics within the data. Feature extraction method before NMF and LDA</li>
+<li>Apply TextRank with the descriptions to extract keywords and run the models.</li>
 <li>Apply technical analysis for graphs of the hyperonyms of the main search terms, using the NLTK library to retrieve WordNet hyperonyms.</li>
-</ul>
+</Ul></Ul>
 
 <h2><a id="projectreferences">References</a></h2>
 
