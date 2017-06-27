@@ -121,6 +121,17 @@ Supplementing the sample of 20,000 queries with the Google Books API
 <li>We returned a total of up to 5 books (the first being the best match) provided that the percentage of words in the query that appear in the title of the book returned is greater than 60%. If the search words have a percentage of appearance higher than 50% in the returned author, we consider that it is a search by author and we labeled it as such. We would later remove the author queries from our data set as we only wanted to work with queries for titles.</li>
 </ul>
 
+<h4>Defining Number of Topics</h4>
+Since both LDA and NMF need k number of topics to run we used the perplexity measure. Low perplexity indicates that the probability distribution of the model is good at predicting the sample.
+
+<table>
+<tr><td><b>K</b></td><td><b>Perplexity</b></td></tr>
+<tr><td>K=5</td><td>249.75001877</td></tr>
+<tr><td>K=10</td><td>254.351936899</td></tr>
+<tr><td>K=15</td><td>250.76157719</td></tr>
+<tr><td>K=20</td><td>251.955603856</td></tr>
+<tr><td>K=25</td><td>254.939880397</td></tr>
+</table>
 <h4>We prepared the files to generate LDA and MFN models on the descriptions obtained from the sample with the Google Books API</h4>
 <ul><li>We prepared work files to generate the LDA and MFN models:</li>
 <ul><li>We used 80% of the sample to construct the model</li>
