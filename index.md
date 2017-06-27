@@ -156,9 +156,13 @@ After seeing the results we determined that 15 was the best number of topics.
 <br><br>
 <img src="https://raw.githubusercontent.com/cnlewis/CAPE_stone/master/images/CAPEstone_NMF_complete_train_best_match.png">
 <br><br>
+The complete train for both the LDA and the NMF topics, as they were more distinguishable from one another, were more accurate than the best match. In the best match for both models words would appear in more than one topic.
+<br><br>
+We compared the complete train of the LDA and the NMF classifications against the test results. The following figure shows the overlap between the two classifications. Based these results we determined the NMF complete train to be a more accurate model at this time for our data.
 <img src="https://raw.githubusercontent.com/cnlewis/CAPE_stone/master/images/CAPEstone_LDA_topics_classification.png">
 <br><br>
-<img src"https://raw.githubusercontent.com/cnlewis/CAPE_stone/master/images/CAPEstone_NMF_complete_train_categories.png">
+We then grouped the NMF complete train topics into similar categories and assigned to each group a google category. The Google categories did not reflect the NMF complete train grouping when looking at the number of searches by title and categories in the sample. 
+<img src="https://raw.githubusercontent.com/cnlewis/CAPE_stone/master/images/CAPEstone_NMF_complete_train_categories.png">
 
 <h2><a id="projectconclusions">Conclusions</a></h2>
 <br><br>
