@@ -119,6 +119,7 @@ Supplementing the sample of 20,000 queries with the Google Books API
 <li>We were limited to a 1,000 daily searches of Google API (daily query limit per user).</li>
 <li>Processed the information obtained to identify which book matches best (from a total of up to 5 candidates) depending on the appearance of terms in their title, author, and description.</li>
 <li>We returned a total of up to 5 books (the first being the best match) provided that the percentage of words in the query that appear in the title of the book returned is greater than 60%. If the search words have a percentage of appearance higher than 50% in the returned author, we consider that it is a search by author and we labeled it as such. We would later remove the author queries from our data set as we only wanted to work with queries for titles.</li>
+</ul>
 
 <h4>We prepared the files to generate LDA and MFN models on the descriptions obtained from the sample with the Google Books API</h4>
 <ul><li>We prepared work files to generate the LDA and MFN models:</li>
