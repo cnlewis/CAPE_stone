@@ -90,7 +90,7 @@ After loading the data:
 <ul>
 <li>This permitted us to see the individual unique queries from the users - for the puprose of this work duplicates could add bias in our topic modeling work.</li>
 </ul>
-<li>We then also removed punctuation, irregular spacing at the beginning or end of queries, empty queries or queries that only contained numerical numbers and special characters</li>
+<li>We then also removed punctuation, stop words, irregular spacing at the beginning or end of queries, empty queries or queries that only contained numerical numbers and special characters</li>
 <ul>
 <li>Removing these pieces ensured our scripts would run properly without failing</li>
 </ul>
