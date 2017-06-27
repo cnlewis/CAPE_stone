@@ -135,30 +135,31 @@ Low perplexity indicates that the probability distribution of the model is good 
 <tr><td>K=20</td><td>251.955603856</td></tr>
 <tr><td>K=25</td><td>254.939880397</td></tr>
 </table>
+After seeing the results we determined that 15 was the best number of topics.
+
 <h4>We prepared the files to generate LDA and MFN models on the descriptions obtained from the sample with the Google Books API</h4>
-<ul><li>We prepared work files to generate the LDA and MFN models:</li>
-<ul><li>We used 80% of the sample to construct the model</li>
-<li>We used 20% of the sample to validate the model</li>
+<ul><li>We prepared work files to generate the LDA and NMF models:</li>
+<ul><li>We used 80% of the sample to construct the model (train)</li>
+<li>We used 20% of the sample to validate the model (test)</li>
 </ul>
 </ul>
-<h4>We generated the LDA model from the descriptions obtained from the sample used with the Google Books API</h4>
-<h4>Performed test of LDA and MFN model on 20% of the sample</h4>
 <ul>
 <li>We tested the methods obtained on 20% of the sample:</li>
 <ul>
-     <li>We predicted about 20% of the sample with the 3 most likely topics using the LDA generated in 80%</li>
-     <li>We predicted about 20% of the sample with the 3 most likely topics using the MFN generated in 80%</li>
+     <li>We predicted about 20% of the sample with the 5 most likely topics using the LDA generated in 80%</li>
+     <li>We predicted about 20% of the sample with the 5 most likely topics using the NMF generated in 80%</li>
      <li>We then generated a csv file with the predictions from both of the models</li></ul></ul>
-
-<h4>Calculation of the per-word perplexity of the LDA models on the test file</h4>
-<ul>
-<li>We calculated the per-word perplexity of the LDA models using the test file with 20% of the sample:</li>
-<ul><li>We generated LDA models using 80% of the sample with 5, 10, 15, 20 and 25 topics</li>
-<li>We calculated the per-word perplexity of each of the previous models on the test file of 20%</li>
-<li>We found that with the models of 5 and 15 topics we get the lowest per-word perplexitys. The per-word perplexity of the topic models are similar</li></ul></ul>
 
 <h2><a id="projectresults">Findings and Results</a></h2>
 <br><br>
+<img src="https://raw.githubusercontent.com/cnlewis/CAPE_stone/master/images/CAPEstone_LDA_complete_train_best_match.png">
+<br><br>
+<img src="https://raw.githubusercontent.com/cnlewis/CAPE_stone/master/images/CAPEstone_NMF_complete_train_best_match.png">
+<br><br>
+<img src="https://raw.githubusercontent.com/cnlewis/CAPE_stone/master/images/CAPEstone_LDA_topics_classification.png">
+<br><br>
+<img src"https://raw.githubusercontent.com/cnlewis/CAPE_stone/master/images/CAPEstone_NMF_complete_train_categories.png">
+
 <h2><a id="projectconclusions">Conclusions</a></h2>
 <br><br>
 <ul><li>LDA and NMF use information about the word co-occurrences to extract the latent topics of the data. For this reason, they promote the predictive capacity of the titles of the books in the categories.</li>
