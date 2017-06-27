@@ -96,24 +96,12 @@ After loading the data:
 </ul>
 <li>We used textblob and langdetect to determine query languages</li>
 </ul>
-<h4>Standardization of English Queries</h4>
-Generating a word counter and string of corrected words
-<ul>
-<li>
-Applying the cleaned file with language assigned and the remaining fields of interest to us, we used it to create a string variable by joining all the queries and transformed all the words to lowercase. Using the previous string variable we were then able create a word counter.</li>
-<li>Selecting english for language we ran the words to determine if they were valid or invalid. We then generated a string of the incorrect words that remained to be corrected and removed the incorrect words from the corrected words counter.</li>
-</ul>
-Define the module with the functions from the word corrections
-<ul>
-<li>We generated another word counter building off the previous counter we created from our processed data files and defined the search and correcting functions for the incorrect words.</li>
-<li>Begins with basic word correction (addition/removal of letters, transposing letters, and separation of words in two) selecting those words with greater likelihood of being correct when compared against the correct words.</li>
-</ul>
-Loading the cleaned file and using the string errors and the word correction module of the previous steps
-<ul>
-<li>Using the word correction module we loaded the incorrect word string generated from the spelling module.</li>
-<li>The incorrect words get run through our word correction module, counting the searches once corrected and eliminating the duplicates and saving the file with corrected words.</li>
-</ul>
-<h4>Selected a random sample of 20,000 Queries</h4>
+<h4>Language Selection and Error Correction</h4>
+We decided to use English queries as it would permit us to use the models more effectively. All other queries of the other languages were removed from our data set.
+<br><br>
+After selecting the english queries we had validated queries and corrected misspellings within words.
+<h4>Sampling and Descriptive Stats</h4>
+We needed to select a random sample of 20,000 queries to run as we were not able to run the all queries due to time and API limitations. Using the sample set of 20,000 queries gave us a statistical significance of 99% and was representative of all our query data.
 <ul><li>The random sample was taken from the corrected word and later is used for comparison against the total query data</li></ul>
 <h4>Descriptive analysis of the most used terms in the sample of searches with generated graphs (Total vs Sample Data)</h4>
 <ul>
