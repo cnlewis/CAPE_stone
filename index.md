@@ -25,7 +25,7 @@ Worldreader is non-profit organization working to reduce illiteracy through its 
 <br><br>
 The project team approached Worldreader as their large collection generates significant amounts data and particularly through the <a href="https://www.worldreader.org/what-we-do/worldreader-mobile/">Worldreader Open Library for mobile phones application</a>.
 <br><br>
-Worldreader was interested in the proposal of examining their data and in particular the organization wanted to focus on the queries from their mobile application. The project's aim was to examine the search query data with Worldreader providing a dataset of search queries and the corresponding fields from their application. All data provided would be anonymized and not include personal data in any form. Worldreader would provide supervision on the project with team members required to sign individualized agreements on data confidentiality.
+Worldreader was interested in the proposal of examining their data and in particular the organization wanted to focus on the queries from their mobile application. The project's aim was to examine the search query data with Worldreader providing a dataset of search queries and the corresponding fields from their application. All data provided would be anonymized and not include personal data in any form.
 <br><br><br><br>
 <h2><a id="projectscope">Project Scope and Methodology</a></h2>
 <br>
