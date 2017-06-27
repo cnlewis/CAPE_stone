@@ -83,18 +83,18 @@ It was discussed with Worldreader if it would be beneficial to focus on certain 
 
 
 
-<h4>Examining the data required that we first clean the data and organize it.</h4>
+<h4>Data Cleaning and Language Detection</h4>
 After loading the data:
 <ul>
-<li>Removed the duplicate queries of each user</li>
+<li>We removed the duplicate queries of each user</li>
 <ul>
-<li>This permitted us to see the individual unique queries from the users - duplicates could lead to errors in word frequencies</li>
+<li>This permitted us to see the individual unique queries from the users - for the puprose of this work duplicates could add bias in our topic modeling work.</li>
 </ul>
-<li>Removed punctuation, irregular spacing at the beginning or end of queries, empty queries or queries that only contained numerical numbers and special characters</li>
+<li>We then also removed punctuation, irregular spacing at the beginning or end of queries, empty queries or queries that only contained numerical numbers and special characters</li>
 <ul>
 <li>Removing these pieces ensured our scripts would run properly without failing</li>
 </ul>
-<li>Used textblob and langdetect to determine query languages</li>
+<li>We used textblob and langdetect to determine query languages</li>
 </ul>
 <h4>Standardization of English Queries</h4>
 Generating a word counter and string of corrected words
