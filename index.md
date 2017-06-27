@@ -29,26 +29,8 @@ Worldreader was interested in the proposal of examining their data and in partic
 <br><br><br><br>
 <h2><a id="projectscope">Project Scope and Methodology</a></h2>
 <br>
-The Project Scope was to analyse queries made by users on the feature phone application by using clustering techniques to identify similar searches. Planned methodologies included sentiment and similarity analysis. Datasets from national libraries could be used to link with clustered search results and the texts identified. The result of the project would be to give Worldreader a better grasp on what their users are interested in reading and algorithms that the organization could use to improve upon its search queries and results in the future. The proposal left open the possibility to extend further into recommenders if possible with time permitting the project team. Another possibility was to use the Worldreader catalog to generate a recommenders system.
-<h4>Summary and Methodology</h4>
-The team met with the project manager from Worldreader every two weeks for regular updates and direction on the project.
-<h4>Project steps:</h4>
-<ul>
-<li>Data cleaning</li>
-<li>Data enrichment with information taken from word thesaurus and National Libraries</li>
-<li>Data clustering using text analysis</li>
-<ul>
-<li>Identify search language and select searches in English</li>
-<li>Split searches in Authors, Titles and “unknown text”</li>
-<ul>
-<li>Identify Book Category</li>
-<li>Identify Authors</li>
-</ul>
-<li>Cluster the book list in k groups of items that Worldreader users could take as a recommendation book list.</li>
-</ul>
-<li>Cluster validation with control file</li>
-<li>Script implementation in a development unit</li>
-</ul>
+The Project Scope was to analyse queries made by users on the feature phone application by using clustering techniques to identify similar searches. Models used LDA (Latent Dirichlet Allocation) and NMF (Non-negative Matrix Factorization) are unsupervised techniques for topic discovery in large document collections. Discover different topics that a set of documents represent and how much of each topic is present in a document (or corpus). The result of the project would be to give Worldreader a better grasp on what their users are interested in reading and algorithms that the organization could use to improve upon its search queries and results in the future. 
+
 <br><br>
 <h2><a id="projectwork">Project Work</a></h2>
 <br><br>
