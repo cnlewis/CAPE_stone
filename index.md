@@ -112,22 +112,13 @@ We needed to select a random sample of 20,000 queries to run as we were not able
 <td><img src="https://raw.githubusercontent.com/cnlewis/CAPE_stone/master/images/bigrams_sample.png"></td>
 </tr>
 </table>
-<h4>Supplementing the sample of 20,000 queries with Google Books API</h4>
+<h4>Classification and Topic Modeling</h4>
+Supplementing the sample of 20,000 queries with the Google Books API
 <ul>
-<li>Retriedved from the books: title, author, category and description with the Google Books API</li>
-<li>Limited to a 1,000 daily searches of Google API (daily query limit per user).</li>
-<li>Processed the information obtained to identify which book matches best (from a total of up to 5 candidates) depending on the appearance of terms in their title, author and description.</li>
-<li>We returned a total of 5 books (the first being the best match) provided that the percentage of words in the query that appear in the title of the book returned is greater than 60%. If the search words have a percentage of appearance higher than 50% in the returned author, we consider that it is a search by author and we label it as such.</li>
-<li>We then saved the results file with the 5 books associated with each query.</li>
-<li>Graphed the frequencies histograms of titles and frequencies of categories returned by Google Books API from the sample of 20,000 querires</li>
-</ul>
-<table>
-<tr><td>
-<img src="https://raw.githubusercontent.com/cnlewis/CAPE_stone/master/images/eengeonkipddppjf.png"></td>
-<td>
-<img src="https://raw.githubusercontent.com/cnlewis/CAPE_stone/master/images/akpghkmaioebgcfb.png"></td>
-</tr>
-</table>
+<li>Retrieved from the books: title, author, category and description with the Google Books API for each query</li>
+<li>We were limited to a 1,000 daily searches of Google API (daily query limit per user).</li>
+<li>Processed the information obtained to identify which book matches best (from a total of up to 5 candidates) depending on the appearance of terms in their title, author, and description.</li>
+<li>We returned a total of up to 5 books (the first being the best match) provided that the percentage of words in the query that appear in the title of the book returned is greater than 60%. If the search words have a percentage of appearance higher than 50% in the returned author, we consider that it is a search by author and we labeled it as such. We would later remove the author queries from our data set as we only wanted to work with queries for titles.</li>
 
 <h4>We prepared the files to generate LDA and MFN models on the descriptions obtained from the sample with the Google Books API</h4>
 <ul><li>We prepared work files to generate the LDA and MFN models:</li>
