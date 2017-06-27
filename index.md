@@ -53,10 +53,10 @@ NMF and LDA are not able to automatically determine the number of topics and thi
 <br><br>
 For an indepth review of the project work see the Capstone's <a href="https://github.com/cnlewis/CAPE_stone/blob/master/Script_proceso_busquedas_integrado.ipynb">Jupyter notebook</a>.
 <br><br>
-Figure 1: Flow Chart of Data in Capstone Project
+Flow Chart of Data in Capstone Project
 <img src="https://raw.githubusercontent.com/cnlewis/CAPE_stone/master/images/CAPEstone_data_process_flow.png">
 <br><br>
-Worldreader provided our team 6 CSV files consisting of over 3,000,000 queries and related information.
+Worldreader provided our team with 6 CSV files consisting of over 3,000,000 queries and related information.
 <br><br>
 <table>
 <tr>
@@ -76,6 +76,13 @@ Worldreader provided our team 6 CSV files consisting of over 3,000,000 queries a
 <td>157261,</td><td>"PH",</td><td>"/Search/Results?Query=japanese",</td><td>"japanese",</td><td>"2016-11-18 17:15:54.19"</td>
 </tr>
 </table>
+
+Reviewing the fields associated with the queries with Worldreader we were told the customer ID was not stable, as sessions would break and did not permit a clear idea of individual user queries.
+<br><br>
+It was discussed with Worldreader if it would be beneficial to focus on certain countries and it was determined to not be necessary.
+
+
+
 <h4>Examining the data required that we first clean the data and organize it.</h4>
 After loading the data:
 <ul>
