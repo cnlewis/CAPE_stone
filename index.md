@@ -185,7 +185,7 @@ Loading the cleaned file and using the string errors and the word correction mod
 <li>Try to find other libraries with description. We could not access to any as good as Google Books.</li>
 <br>
 <li>Compare the supplemented queries with the information extracted from the Google Books API against the organizational book catalog:</li>
-<br><ul><li>Identify the catalog books in high demand</li>
+<ul><li>Identify the catalog books in high demand</li>
 <li>A list of books in high demand and not part of the catalog</li>
 <li>Create a recommenders system of the catalog based off the queries</li>
 </ul>
