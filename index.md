@@ -122,7 +122,10 @@ Supplementing the sample of 20,000 queries with the Google Books API
 </ul>
 
 <h4>Defining Number of Topics</h4>
-Since both LDA and NMF need k number of topics to run we used the perplexity measure. Low perplexity indicates that the probability distribution of the model is good at predicting the sample.
+Since both LDA and NMF need "k" number of topics to run we used the perplexity measure and an iterative approach to define the most suitable number of topics for our data. 
+<br>
+<br>
+Low perplexity indicates that the probability distribution of the model is good at predicting the sample.
 
 <table>
 <tr><td><b>K</b></td><td><b>Perplexity</b></td></tr>
