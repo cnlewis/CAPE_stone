@@ -105,7 +105,13 @@ We needed to select a random sample of 20,000 queries to run as we were not able
 <img src="https://raw.githubusercontent.com/cnlewis/CAPE_stone/master/images/CAPEstone_sample_significance.png">
 <br><br><br>Generated a word cloud with the most used terms and identified the 10 first bigramas depending on their frequency of occurrence.
 <br>
-<img src="https://raw.githubusercontent.com/cnlewis/CAPE_stone/master/images/wordcloud_finalsample.png">
+<table>
+<tr>
+<td>
+<img src="https://raw.githubusercontent.com/cnlewis/CAPE_stone/master/images/wordcloud_finalsample.png"></td>
+<td><img src="https://raw.githubusercontent.com/cnlewis/CAPE_stone/master/images/bigrams_sample.png"></td>
+</tr>
+</table>
 <h4>Supplementing the sample of 20,000 queries with Google Books API</h4>
 <ul>
 <li>Retriedved from the books: title, author, category and description with the Google Books API</li>
