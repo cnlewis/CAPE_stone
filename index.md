@@ -30,11 +30,11 @@ Worldreader was interested in the proposal of examining their data and in partic
 <h2><a id="projectscope">Project Scope and Methodology</a></h2>
 <br>
 The Project Scope was to analyse queries made by users on the feature phone application by using clustering techniques to identify similar searches. The result of the project would be to give Worldreader a better grasp on what their users are interested in reading and algorithms that the organization could use to improve upon its search queries and results in the future. 
-<br>
+<br><br>
 The majority of the queries consisted of short text searches, few words, requiring us to supplement the data. In order to use topic modeling techniques such as Latent Dirichlet Allocation (LDA) and Non-negative Matrix Factorization (NMF), we ran the queries through the Google Books API to pull book descriptions.
-<br>
+<br><br>
 The models used LDA and NMF are unsupervised techniques for topic discovery in large document collections. Discover different topics that a set of documents represent and how much of each topic is present in a document (or corpus). 
-<br>
+<br><br>
 Each algorithm has a different mathematical underpinning:
 <ul><li>LDA is is based on a bayesian probabilistic graphical modeling</li>
 <li>NMF relies on linear algebra.</li> 
