@@ -54,7 +54,7 @@ NMF and LDA are not able to automatically determine the number of topics and thi
 For an indepth review of the project work see the Capstone's <a href="https://github.com/cnlewis/CAPE_stone/blob/master/Script_proceso_busquedas_integrado.ipynb">Jupyter notebook</a>.
 <br><br>
 Figure 1: Flow Chart of Data in Capstone Project
-<img src="https://raw.githubusercontent.com/cnlewis/CAPE_stone/master/images/Flujo_datos_WorldReader_en_traducidos.png">
+<img src="https://raw.githubusercontent.com/cnlewis/CAPE_stone/master/images/CAPEstone_data_process_flow.png">
 <br><br>
 Worldreader provided our team 6 CSV files consisting of over 3,000,000 queries and related information.
 <br><br>
