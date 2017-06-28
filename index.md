@@ -104,12 +104,9 @@ After selecting the english queries we had validated queries and corrected missp
 We needed to select a random sample of 20,000 queries to run as we were not able to run the all queries due to time and API limitations. Using the sample set of 20,000 queries gave us a statistical significance of 99% and was representative of all our query data. Using the random sample of the corrected words we could use this for comparison against the total query data.
 <img src="https://raw.githubusercontent.com/cnlewis/CAPE_stone/master/images/CAPEstone_sample_significance.png">
 <br><br><br>Generated a word cloud with the most used terms and identified the 10 first bigramas depending on their frequency of occurrence.
-<br>
-<table>
-<tr>
-<td>
+<br><br>
 <img src="https://raw.githubusercontent.com/cnlewis/CAPE_stone/master/images/wordcloud_finalsample.png"></td>
-</tr>
+<table>
 <tr><td><img src="https://raw.githubusercontent.com/cnlewis/CAPE_stone/master/images/bigrama_muestra_20000.png"></td>
 <td><img src="https://raw.githubusercontent.com/cnlewis/CAPE_stone/master/images/bigrama_total_fichero.png"></td>
 </tr>
