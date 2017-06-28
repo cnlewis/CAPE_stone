@@ -21,7 +21,7 @@ Thank you to Worldreader for granting us access to its data and for supporting o
 
 <h2><a id="projectbackground">Project Background</a></h2>
 <br>
-Worldreader is non-profit organization working to reduce illiteracy through its reading applications and sponsorship programs. The organization has a collection of over 40,000 books in more than 40 languages with the mission "to unlock the potential of millions of people through the use of digital books in places where access to reading material is very limited."
+Worldreader is a non-profit organization working to reduce illiteracy through its reading applications and sponsorship programs. The organization has a collection of over 40,000 books in more than 40 languages with the mission "to unlock the potential of millions of people through the use of digital books in places where access to reading material is very limited."
 <br><br>
 The project team approached Worldreader as their large collection generates significant amounts data and particularly through the <a href="https://www.worldreader.org/what-we-do/worldreader-mobile/">Worldreader Open Library for mobile phones application</a>.
 <br><br>
@@ -33,7 +33,7 @@ The Project Scope was to analyse queries made by users on the feature phone appl
 <br><br>
 The majority of the queries consisted of short text searches, few words, requiring us to supplement the data. In order to use topic modeling techniques such as Latent Dirichlet Allocation (LDA) and Non-negative Matrix Factorization (NMF), we ran the queries through the Google Books API to pull book descriptions.
 <br><br>
-The models used LDA and NMF are unsupervised techniques for topic discovery in large document collections. Discover different topics that a set of documents represent and how much of each topic is present in a document (or corpus). 
+The models used LDA and NMF are unsupervised techniques for topic discovery in large document collections. These algorithms discover different topics represented in a set of documents and how much of each topic is present in a document (or corpus). 
 <br><br>
 Each algorithm has a different mathematical underpinning:
 <ul><li>LDA is is based on a bayesian probabilistic graphical modeling</li>
@@ -51,7 +51,7 @@ NMF and LDA are not able to automatically determine the number of topics and thi
 <br><br>
 <h2><a id="projectwork">Project Work</a></h2>
 <br><br>
-For an indepth review of the project work see the Capstone's <a href="https://github.com/cnlewis/CAPE_stone/blob/master/Script_proceso_busquedas_integrado.ipynb">Jupyter notebook</a>.
+For an indepth review of the project work and code see the Capstone's <a href="https://github.com/cnlewis/CAPE_stone/blob/master/Jupyter_Worldreader_VF.ipynb">Jupyter notebook</a>.
 <br><br>
 Flow Chart of Data in Capstone Project
 <img src="https://raw.githubusercontent.com/cnlewis/CAPE_stone/master/images/CAPEstone_data_process_flow.png">
@@ -99,7 +99,7 @@ After loading the data:
 <h4>Language Selection and Error Correction</h4>
 We decided to use English queries as it would permit us to use the models more effectively. All other queries of the other languages were removed from our data set.
 <br><br>
-After selecting the english queries we had validated queries and corrected misspellings within words.
+After selecting the English queries we had validated queries and corrected misspellings within words.
 <h4>Sampling and Descriptive Stats</h4>
 We needed to select a random sample of 20,000 queries to run as we were not able to run the all queries due to time and API limitations. Using the sample set of 20,000 queries gave us a statistical significance of 99% and was representative of all our query data. Using the random sample of the corrected words we could use this for comparison against the total query data.
 <img src="https://raw.githubusercontent.com/cnlewis/CAPE_stone/master/images/CAPEstone_sample_significance.png">
