@@ -105,7 +105,7 @@ We needed to select a random sample of 20,000 queries to run as we were not able
 <img src="https://raw.githubusercontent.com/cnlewis/CAPE_stone/master/images/CAPEstone_sample_significance.png">
 <br><br><br>Generated a word cloud with the most used terms and identified the 10 first bigramas depending on their frequency of occurrence.
 <br><br>
-<img src="https://raw.githubusercontent.com/cnlewis/CAPE_stone/master/images/wordcloud_finalsample.png"></td>
+<img src="https://raw.githubusercontent.com/cnlewis/CAPE_stone/master/images/wordcloud_finalsample.png">
 <br><br>
 <table>
 <tr>
