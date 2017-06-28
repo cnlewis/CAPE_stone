@@ -109,7 +109,9 @@ We needed to select a random sample of 20,000 queries to run as we were not able
 <tr>
 <td>
 <img src="https://raw.githubusercontent.com/cnlewis/CAPE_stone/master/images/wordcloud_finalsample.png"></td>
-<td><img src="https://raw.githubusercontent.com/cnlewis/CAPE_stone/master/images/bigrams_sample.png"></td>
+</tr>
+<tr><td><img src="https://raw.githubusercontent.com/cnlewis/CAPE_stone/master/images/bigrama_muestra_20000.png"></td>
+<td><img src="https://raw.githubusercontent.com/cnlewis/CAPE_stone/master/images/bigrama_total_fichero.png"></td>
 </tr>
 </table>
 <h4>Classification and Topic Modeling</h4>
