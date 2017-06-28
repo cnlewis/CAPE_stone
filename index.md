@@ -88,7 +88,7 @@ After loading the data:
 <ul>
 <li>We removed the duplicate queries of each user</li>
 <ul>
-<li>This permitted us to see the individual unique queries from the users - for the puprose of this work duplicates could add bias in our topic modeling work.</li>
+<li>This permitted us to see the individual unique queries from the users - for the puprose of this work duplicate queries (of individual users) could add bias in our topic modeling work with certain queries possibly being overly represented.</li>
 </ul>
 <li>We then also removed punctuation, stop words, irregular spacing at the beginning or end of queries, empty queries or queries that only contained numerical numbers and special characters</li>
 <ul>
@@ -123,7 +123,7 @@ Supplementing the sample of 20,000 queries with the Google Books API
 <li>Retrieved from the books: title, author, category and description with the Google Books API for each query</li>
 <li>We were limited to a 1,000 daily searches of Google API (daily query limit per user).</li>
 <li>Processed the information obtained to identify which book matches best (from a total of up to 5 candidates) depending on the appearance of terms in their title, author, and description.</li>
-<li>We returned a total of up to 5 books (the first being the best match) provided that the percentage of words in the query that appear in the title of the book returned is greater than 60%. If the search words have a percentage of appearance higher than 50% in the returned author, we consider that it is a search by author and we labeled it as such. We would later remove the author queries from our data set as we only wanted to work with queries for titles.</li>
+<li>We returned a total of up to 5 books (the first being the best match) provided that the percentage of the words be greater than 60% in the query that appear in the title of the book. If the search words have a percentage of appearance higher than 50% in the returned author, we consider that it is a search by author and we labeled it as such. We would later remove the author queries from our data set as we only wanted to work with queries for titles.</li>
 </ul>
 
 <h4>Defining Number of Topics</h4>
