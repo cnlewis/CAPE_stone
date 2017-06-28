@@ -200,7 +200,7 @@ We then grouped the NMF complete train topics into similar categories and assign
 <br>
 <li>Analysis of organization's catalog, if provided.</li>
 <br>
-<li>Try to find other libraries with description. We could not access to any as good as Google Books.</li>
+<li>Try to find other libraries with description. We could not access to any as good as Google Books API.</li>
 <br>
 <li>Compare the supplemented queries with the information extracted from the Google Books API against the organizational book catalog:</li>
 <ul><li>Identify the catalog books in high demand</li>
@@ -216,7 +216,6 @@ We then grouped the NMF complete train topics into similar categories and assign
 
 <h2><a id="projectreferences">References</a></h2>
 
-<h4>What are the pros and cons of LDA and NMF in topic modeling?</h4> 
 <ul><li>https://www.quora.com/What-are-the-pros-and-cons-of-LDA-and-NMF-in-topic-modeling</li></ul> 
  
 <ul><li>https://medium.com/@aneesha/topic-modeling-with-scikit-learn-e80d33668730</li></ul> 
@@ -225,10 +224,6 @@ We then grouped the NMF complete train topics into similar categories and assign
 
 <ul><li>https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4597325/</li></ul>
 
-<h4>Text mining Topic Modeling</h4>
-<ul><li>http://www.kdnuggets.com/2016/07/text-mining-101-topic-modeling.html</li></ul>
- 
-<h4>Exploring Topic Coherence over many models and many topics</h4>
 <ul><li>http://aclweb.org/anthology/D/D12/D12-1087.pdf</li></ul>
 
 
