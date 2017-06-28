@@ -109,7 +109,7 @@ We needed to select a random sample of 20,000 queries to run as we were not able
 <br><br>
 <table>
 <tr>
-<td>10 Most Frequent Bigrams from Sample Data<td/>
+<td>10 Most Frequent Bigrams from Sample Data</td>
 <td>10 Most Frequent Bigrams from Total Query Data</td>
 </tr>
 <tr>
