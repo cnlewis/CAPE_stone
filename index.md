@@ -200,7 +200,7 @@ We then grouped the NMF complete train topics into similar categories and assign
 <br>
 <li>Analysis of organization's catalog.</li>
 <br>
-<li>Try to find other libraries with description. We could not access to any as good as Google Books.</li>
+<li>Try to find other libraries with description. We could not access to any as good as Google Books API.</li>
 <br>
 <li>Compare the supplemented queries with the information extracted from the Google Books API against the organizational book catalog:</li>
 <ul><li>Identify the catalog books in high demand</li>
