@@ -167,7 +167,7 @@ Comparing the results of the two models with the complete train versus the best 
 <br><br>
 <img src="https://raw.githubusercontent.com/cnlewis/CAPE_stone/master/images/CAPEstone_NMF_complete_train_best_match.png">
 <br><br>
-The complete train for both the LDA and the NMF topics, as they were more distinguishable from one another, were more accurate than the best match. In the best match for both models words would appear in more than one topic.
+The complete train for both the LDA and the NMF topics were more accurate than the best match as topics were more distinguishable from one another. In the best match for both models some words would appear in more than one topic.
 <br><br>
 We compared the complete train of the LDA and the NMF classifications against the test results. The following figure shows the overlap between the two classifications. Based these results we determined the NMF complete train to be a more accurate model at this time for our data.
 <img src="https://raw.githubusercontent.com/cnlewis/CAPE_stone/master/images/CAPEstone_LDA_topics_classification.png">
