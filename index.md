@@ -143,17 +143,25 @@ Low perplexity indicates that the probability distribution of the model is good 
 After seeing the results we determined that 15 was the best number of topics.
 
 <h4>We prepared the files to generate LDA and MFN models on the descriptions obtained from the sample with the Google Books API</h4>
-<ul><li>We prepared work files to generate the LDA and NMF models:</li>
-<ul><li>We used 80% of the sample to construct the model (train)</li>
-<li>We used 20% of the sample to validate the model (test)</li>
+<ul>
+<li>We prepared work files to generate the LDA and NMF models:</li>
+<ul>
+<li>We used 80% of the sample to construct the models (train)</li>
+<li>We used 20% of the sample to validate the models (test)</li>
 </ul>
+<li>We ran LDA train with the 5 suggestions (complete train) and again with the best match train.</li>
+<li>We ran NMF train with the 5 suggestions (complete train) and again with the best match train.</li>
+<br>
+Comparing the results of the two models with the complete train versus the best match train we saw that the complete train models identified topics more accurately.
 </ul>
 <ul>
-<li>We tested the methods obtained on 20% of the sample:</li>
+<li>We tested the complete train models with the remaining 20% of the sample:</li>
 <ul>
-     <li>We predicted about 20% of the sample with the 5 most likely topics using the LDA generated in 80%</li>
+     <li>From the remaining 20% of the sample we predicted the 5 most likely topics using the LDA complete train generated from the 80% test sample</li>
      <li>We predicted about 20% of the sample with the 5 most likely topics using the NMF generated in 80%</li>
-     <li>We then generated a csv file with the predictions from both of the models</li></ul></ul>
+     <li>We then generated a csv file with the predictions from both of the models</li>
+</ul>
+</ul>
 
 <h2><a id="projectresults">Findings and Results</a></h2>
 <br><br>
