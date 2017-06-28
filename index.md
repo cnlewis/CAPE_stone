@@ -108,7 +108,7 @@ We needed to select a random sample of 20,000 queries to run as we were not able
 <img src="https://raw.githubusercontent.com/cnlewis/CAPE_stone/master/images/wordcloud_finalsample.png"></td>
 <br><br>
 <table>
-<tr><td>10 Most Frequent Bigrams from Sample Data<td/><td>10 Most Frequent Bigrams from Total Query Data</td><tr>
+<tr><td>10 Most Frequent Bigrams from Sample Data<td/><td>10 Most Frequent Bigrams from Total Query Data</td></tr>
 <tr><td><img src="https://raw.githubusercontent.com/cnlewis/CAPE_stone/master/images/bigrama_muestra_20000.png"></td>
 <td><img src="https://raw.githubusercontent.com/cnlewis/CAPE_stone/master/images/bigrama_total_fichero.png"></td>
 </tr>
