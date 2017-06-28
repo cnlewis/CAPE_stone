@@ -183,8 +183,8 @@ We then grouped the NMF complete train topics into similar categories and assign
 <br><li>When perplexity was calculated LDA seemed to be more stable for 5 or 15 topics. 15 topics seemed to reflect more precisely the diverse range of documents.</li>
 <br><li>NMF can be mostly seen as a LDA of which the parameters have been fixed to enforce a sparse solution. It may not be as flexible as LDA if you want to find multiple topics in single documents (e.g., from long articles), but it usually works better with short texts of different nature.</li>
 <br><li>NMF is faster than LDA for short text analysis, its computation time is lower.</li>
-<br><li>NMF seems to be a more stable model both with the best match and with all the suggestions.</li>
-<br><li>For the purposes of this work, we think the results of NMF complete help us to understand better user’s type of searches and recurrent topics.</li> 
+<br><li>For our data, NMF seems to be a more stable model both with the best match and with all the suggestions.</li>
+<br><li>For the purposes of this work, we think the results of NMF complete train help us to understand better user’s type of searches and recurrent topics.</li> 
 
 </ul>
 
